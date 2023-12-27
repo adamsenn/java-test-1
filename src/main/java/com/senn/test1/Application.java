@@ -1,4 +1,4 @@
-package test1;
+package com.senn.test1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +11,7 @@ public class Application {
 
   @RequestMapping("/")
   public String home() {
-    return "Hello World!";
+    return "Waassup World!";
   }
 
   public static void main(String[] args) {
